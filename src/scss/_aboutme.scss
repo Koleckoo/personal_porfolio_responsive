@@ -28,7 +28,7 @@
 }
 .aboutme__content-par-btn {
   width: 150px;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
   color: black;
   padding: 10px 12px;
   border: none;
@@ -38,8 +38,8 @@
   text-decoration: none;
 }
 .aboutme__content-par-btn:hover {
-  background-color: #626461;
-  color: #f4f9fc;
+  background-color: $color_background_2;
+  color: $color_background_3;
   cursor: pointer;
 }
 h4 {
@@ -49,6 +49,6 @@ h4 {
 
 p span {
   text-decoration: underline;
-  text-decoration-color: #88c2ce;
+  text-decoration-color: $color_background_1;
   text-decoration-thickness: 8px;
 }

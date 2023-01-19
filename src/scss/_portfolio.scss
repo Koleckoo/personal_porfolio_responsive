@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   padding: 150px;
-  background-color: #626461;
+  background-color: $color_background_2;
 }
 .portfolio__header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 35px;
-  color: #88c2ce;
+  color: $color_background_1;
 }
 
 .portfolio__cards {
@@ -30,10 +30,10 @@ img.portfolio__cards-card-img {
   margin-bottom: 25px;
   width: 32%;
   padding: 35px;
-  background-color: #f4f9fc;
+  background-color: $color_background_3;
 }
 .portfolio__cards-card-btn {
-  background-color: #626461;
+  background-color: $color_background_2;
   border: none;
   border-radius: 1.6rem;
   color: white;
@@ -48,13 +48,13 @@ img.portfolio__cards-card-img {
 }
 .portfolio__cards-card-btn:hover {
   cursor: pointer;
-  border: solid 1px #10100f;
+  border: solid 1px $color_background_5;
   background-color: white;
-  color: #10100f;
+  color: $color_background_5;
 }
 
 .portfolio__cards-card:hover {
-  background-color: #88c2ce;
-  border: solid 5px #10100f;
+  background-color: $color_background_1;
+  border: solid 5px $color_background_5;
   opacity: 1;
 }

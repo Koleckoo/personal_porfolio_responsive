@@ -30,9 +30,9 @@
   justify-content: center;
   flex-grow: 1;
   text-decoration: none;
-  background-color: #626461;
-  color: white;
+  background-color: $color_background_2;
+  color: $color_background_3;
 }
 .nav__rightbox-link:hover {
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }

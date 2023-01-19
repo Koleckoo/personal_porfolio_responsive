@@ -1,7 +1,7 @@
 .findmehere {
   display: flex;
   flex-direction: column;
-  background-color: #626461;
+  background-color: $color_background_2;
 }
 
 .findmehere__header {
@@ -10,7 +10,7 @@
   justify-content: center;
   margin-bottom: 20px;
   padding-top: 35px;
-  color: #88c2ce;
+  color: $color_background_1;
 }
 h5 {
   font-size: 1.4rem;

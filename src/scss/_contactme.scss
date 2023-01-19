@@ -1,7 +1,7 @@
 .contactme {
   display: flex;
   flex-direction: column;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .contactme__header {
   display: flex;
@@ -53,7 +53,7 @@
 }
 
 .input {
-  background-color: #88c2ce;
+  background-color: $color_background_1;
   border: none;
 }
 .message {
@@ -64,10 +64,10 @@
 .message__btn {
   font-size: 1.1rem;
   font-weight: bold;
-  background-color: #10100f;
+  background-color: $color_background_5;
   padding: 20px;
   width: 100%;
-  color: #f4f9fc;
+  color: $color_background_3;
   border-radius: 1rem;
 }
 .message__btn:hover {

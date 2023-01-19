@@ -47,11 +47,11 @@ body {
   justify-content: center;
   flex-grow: 1;
   text-decoration: none;
-  background-color: #626461;
+  background-color: $color_background_2;
   color: white;
 }
 .nav__rightbox-link:hover {
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 
 .header {
@@ -66,7 +66,7 @@ body {
   width: 100%;
   height: 400px;
   align-items: center;
-  color: #10100f;
+  color: $color_background_5;
 }
 h1 {
   font-size: 2.5rem;
@@ -74,7 +74,7 @@ h1 {
 
 h1 span {
   text-decoration: underline;
-  text-decoration-color: #88c2ce;
+  text-decoration-color: $color_background_1;
 }
 
 .par {
@@ -107,8 +107,8 @@ h1 span {
   justify-content: space-around;
   align-items: center;
   height: 325px;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
   margin-top: -100px;
 }
 
@@ -166,169 +166,169 @@ h3 {
 /* HTML bar */
 .myskills_skill-html {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-html {
   display: flex;
   flex-direction: row;
   flex-grow: 0.8;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-html {
   display: flex;
   flex-direction: row;
   flex-grow: 0.2;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* CSS bar */
 .myskills_skill-css {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-css {
   display: flex;
   flex-direction: row;
   flex-grow: 0.7;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-css {
   display: flex;
   flex-direction: row;
   flex-grow: 0.3;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* JS bar */
 .myskills_skill-js {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-js {
   display: flex;
   flex-direction: row;
   flex-grow: 0.55;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-js {
   display: flex;
   flex-direction: row;
   flex-grow: 0.45;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* React bar */
 .myskills_skill-react {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-react {
   display: flex;
   flex-direction: row;
   flex-grow: 0.1;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-react {
   display: flex;
   flex-direction: row;
   flex-grow: 0.9;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* jQuery bar */
 .myskills_skill-jquery {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-jquery {
   display: flex;
   flex-direction: row;
   flex-grow: 0.35;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-jquery {
   display: flex;
   flex-direction: row;
   flex-grow: 0.65;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* PHP bar */
 .myskills_skill-php {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-php {
   display: flex;
   flex-direction: row;
   flex-grow: 0.65;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-php {
   display: flex;
   flex-direction: row;
   flex-grow: 0.35;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 
 /* LARAVEL bar */
 .myskills_skill-laravel {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-laravel {
   display: flex;
   flex-direction: row;
   flex-grow: 0.1;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-laravel {
   display: flex;
   flex-direction: row;
   flex-grow: 0.9;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 /* UX bar */
 .myskills_skill-ux {
   width: 10%;
-  background-color: #626461;
-  color: #88c2ce;
+  background-color: $color_background_2;
+  color: $color_background_1;
 }
 .myskills_skill-color-ux {
   display: flex;
   flex-direction: row;
   flex-grow: 0.25;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .myskills_skill-nocolor-ux {
   display: flex;
   flex-direction: row;
   flex-grow: 0.75;
   justify-content: flex-end;
-  background-color: #d6dfe8;
+  background-color: $color_background_4;
 }
 
 .portfolio {
   display: flex;
   flex-direction: column;
   padding: 150px;
-  background-color: #626461;
+  background-color: $color_background_2;
 }
 .portfolio__header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 35px;
-  color: #88c2ce;
+  color: $color_background_1;
 }
 
 .portfolio__cards {
@@ -349,10 +349,10 @@ img.portfolio__cards-card-img {
   margin-bottom: 25px;
   width: 32%;
   padding: 35px;
-  background-color: #f4f9fc;
+  background-color: $color_background_3;
 }
 .portfolio__cards-card-btn {
-  background-color: #626461;
+  background-color: $color_background_2;
   border: none;
   border-radius: 1.6rem;
   color: white;
@@ -367,14 +367,14 @@ img.portfolio__cards-card-img {
 }
 .portfolio__cards-card-btn:hover {
   cursor: pointer;
-  border: solid 1px #10100f;
+  border: solid 1px $color_background_5;
   background-color: white;
-  color: #10100f;
+  color: $color_background_5;
 }
 
 .portfolio__cards-card:hover {
-  background-color: #88c2ce;
-  border: solid 5px #10100f;
+  background-color: $color_background_1;
+  border: solid 5px $color_background_5;
   opacity: 1;
 }
 
@@ -408,7 +408,7 @@ img.portfolio__cards-card-img {
 }
 .aboutme__content-par-btn {
   width: 150px;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
   color: black;
   padding: 10px 12px;
   border: none;
@@ -418,8 +418,8 @@ img.portfolio__cards-card-img {
   text-decoration: none;
 }
 .aboutme__content-par-btn:hover {
-  background-color: #626461;
-  color: #f4f9fc;
+  background-color: $color_background_2;
+  color: $color_background_3;
   cursor: pointer;
 }
 h4 {
@@ -429,14 +429,14 @@ h4 {
 
 p span {
   text-decoration: underline;
-  text-decoration-color: #88c2ce;
+  text-decoration-color: $color_background_1;
   text-decoration-thickness: 8px;
 }
 
 .findmehere {
   display: flex;
   flex-direction: column;
-  background-color: #626461;
+  background-color: $color_background_2;
 }
 
 .findmehere__header {
@@ -445,7 +445,7 @@ p span {
   justify-content: center;
   margin-bottom: 20px;
   padding-top: 35px;
-  color: #88c2ce;
+  color: $color_background_1;
 }
 h5 {
   font-size: 1.4rem;
@@ -472,7 +472,7 @@ h5 {
 .contactme {
   display: flex;
   flex-direction: column;
-  background-color: #88c2ce;
+  background-color: $color_background_1;
 }
 .contactme__header {
   display: flex;
@@ -524,7 +524,7 @@ h5 {
 }
 
 .input {
-  background-color: #88c2ce;
+  background-color: $color_background_1;
   border: none;
 }
 .message {
@@ -535,10 +535,10 @@ h5 {
 .message__btn {
   font-size: 1.1rem;
   font-weight: bold;
-  background-color: #10100f;
+  background-color: $color_background_5;
   padding: 20px;
   width: 100%;
-  color: #f4f9fc;
+  color: $color_background_3;
   border-radius: 1rem;
 }
 .message__btn:hover {
@@ -562,7 +562,7 @@ h5 {
 h6 {
   font-size: 2rem;
   margin-bottom: 75px;
-  border-bottom: ridge 20px #88c2ce;
+  border-bottom: ridge 20px $color_background_1;
   padding-bottom: 25px;
 }
 
