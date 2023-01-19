@@ -1,0 +1,34 @@
+.work-stages {
+    background-color: #232323;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.work-stages__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-stages__column_heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #54be90;
+    margin: 20px;
+}
+
+.work-stages__column_p {
+    padding: 0 50px;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+}
+
+.center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
