@@ -23,21 +23,7 @@ body {
 
 @import "par.scss";
 
-.circles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  margin-top: -100px;
-  z-index: 1;
-}
-
-.circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: white;
-}
+@import "circles.scss";
 
 @import "header.scss";
 
