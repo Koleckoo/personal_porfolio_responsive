@@ -1,0 +1,35 @@
+.findmehere {
+  display: flex;
+  flex-direction: column;
+  background-color: #626461;
+}
+
+.findmehere__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 35px;
+  color: #88c2ce;
+}
+h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.findmehere__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.findmehere__icons-github {
+  width: 150px;
+}
+.findmehere__icons-linkedin {
+  width: 150px;
+}
+.findmehere__icons-instagram {
+  width: 150px;
+}

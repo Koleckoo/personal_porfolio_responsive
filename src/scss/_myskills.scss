@@ -1,0 +1,184 @@
+.myskills {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 150px;
+}
+
+.myskills__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.myskills__skill {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.myskills__skill-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+/* HTML bar */
+.myskills_skill-html {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-html {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.8;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-html {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.2;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* CSS bar */
+.myskills_skill-css {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-css {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.7;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-css {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.3;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* JS bar */
+.myskills_skill-js {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-js {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.55;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-js {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.45;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* React bar */
+.myskills_skill-react {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-react {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.1;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-react {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.9;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* jQuery bar */
+.myskills_skill-jquery {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-jquery {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.35;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-jquery {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.65;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* PHP bar */
+.myskills_skill-php {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-php {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.65;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-php {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.35;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+
+/* LARAVEL bar */
+.myskills_skill-laravel {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-laravel {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.1;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-laravel {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.9;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}
+/* UX bar */
+.myskills_skill-ux {
+  width: 10%;
+  background-color: #626461;
+  color: #88c2ce;
+}
+.myskills_skill-color-ux {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.25;
+  background-color: #88c2ce;
+}
+.myskills_skill-nocolor-ux {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0.75;
+  justify-content: flex-end;
+  background-color: #d6dfe8;
+}

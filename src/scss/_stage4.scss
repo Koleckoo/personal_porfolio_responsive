@@ -1,0 +1,30 @@
+.stages4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 325px;
+  background-color: #626461;
+  color: #88c2ce;
+  margin-top: -100px;
+}
+
+.stages4__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 300px;
+  padding-right: 45px;
+  padding-top: 50px;
+}
+/* this is styling for columns under circles */
+.column {
+  list-style: none;
+  text-align: center;
+}
+
+li span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

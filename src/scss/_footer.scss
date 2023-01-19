@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 2rem;
+  margin-bottom: 75px;
+  border-bottom: ridge 20px #88c2ce;
+  padding-bottom: 25px;
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.footer__logo {
+  width: 50px;
+  margin-right: 25px;
+}
+
+.footer__par {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 0.7rem;
+}
